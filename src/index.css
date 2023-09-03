@@ -30,6 +30,10 @@ header > nav {
     margin-left: 10px;
     margin-right: auto;
 }
+.nav-title > a {
+    text-decoration: none;
+    color: unset;
+}
 .nav-title:hover{
     animation: bounce infinite  2s;
     -webkit-animation: bounce infinite  2s;
