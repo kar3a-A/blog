@@ -54,3 +54,10 @@ header > nav {
     font-size: large;
     font-weight: 600;
 }
+
+    /* Home  */
+.home {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}

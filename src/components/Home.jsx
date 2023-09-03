@@ -1,13 +1,20 @@
-import { Link } from "react-router-dom"
+
+import { Blog } from './index'
+import blogData from "./blogs"
 
 
 const Home = () => {
   return (
-    <div>
-      <Link to='/about'>About</Link><br />
-      <Link to='/abc'>404</Link><br />
-      <Link to='/'>Home</Link>
-      Home
+    <div className="home">
+      {
+        blogData.map((blog) => {
+          <Blog
+            key={blog.id}
+            image={blog.image}
+            name={blog.name}
+          />
+        })
+      }
     </div>
   )
 }
