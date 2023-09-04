@@ -7,7 +7,7 @@ const Blog = (props) => {
 
   return (
     <div className="cardList">
-      <div key={key} className="blogCard">
+      <div key={key} className="blogCard ">
         <img src={image} alt="blog-img" className="blogImage" />
         <br />
 
