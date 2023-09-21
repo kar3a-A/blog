@@ -2,6 +2,8 @@ import gojo from '../assets/gojo2.png'
 import firstDemon from '../assets/demonSlayer1.jpeg'
 import hxh from '../assets/HxH 1.jpg'
 
+
+
 const blogData = [
     {
         id:1,
@@ -30,3 +32,4 @@ const blogData = [
 ]
 
 export default blogData;
+
